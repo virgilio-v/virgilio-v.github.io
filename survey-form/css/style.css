@@ -1,25 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600;700&display=swap');
 
 body{
     font-family: 'Mukta', sans-serif;
-    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/b7/d5/84/b7d58408aeaf97691d8da61b17e71b1a.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+main{
+    background-color: rgba(253, 253, 253, 0.753);
+    padding: 50px;
 }
 
 form{
-    background-color: gainsboro;
-    width: 30rem;
-    margin: auto;
-    padding: 50px;
-    text-align: left;
+    padding: 0.5rem;
+    width: 50%;
+    border-color: black;
+    border-style: solid;
 }
 
-.form-control{
-    width: 100%;
+
+
+#title{
+    font-weight: 600;
+    margin-bottom: -10px;
 }
 
-.submit-button{
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+#description{
+    font-weight: 300;
+    font-style: italic;
 }
