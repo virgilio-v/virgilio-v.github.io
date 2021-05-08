@@ -16,11 +16,21 @@ main{
 form{
     padding: 0.5rem;
     width: 50%;
-    border-color: black;
-    border-style: solid;
 }
 
+.form-control{
+    width: 75%;
+}
 
+textarea{
+    resize: none;
+    width: 75%;
+}
+
+input[type=submit]{
+    width: 75%;
+
+}
 
 #title{
     font-weight: 600;
@@ -30,4 +40,22 @@ form{
 #description{
     font-weight: 300;
     font-style: italic;
+}
+
+@media (max-width: 380px) {
+    body{
+        background: linear-gradient(225deg, rgb(69, 161, 26), rgb(66, 76, 211));
+        padding: 20px;
+    }
+
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+
+    form{
+        padding: 20px;
+        width: 100%;
+    }
+
 }
